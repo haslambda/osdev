@@ -13,3 +13,4 @@
 iso/
 *.elf
 bochslog.txt
+*.iso

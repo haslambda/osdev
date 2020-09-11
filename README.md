@@ -19,5 +19,5 @@ Work in progress...
 
 ### Running the kernel
 ```shell
-bochs -f bootsrc.txt -q
+bochs -f bochsrc.txt -q
 ```

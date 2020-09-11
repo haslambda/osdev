@@ -12,8 +12,12 @@ Lambda OS Dev Repo.
 ### POSIX-complaint OSes (Linux, macOS, ...)
 ```shell
 make
-bochs -f bootsrc.txt -q
 ```
 
 ### Windows
 Work in progress...
+
+### Running the kernel
+```shell
+bochs -f bootsrc.txt -q
+```

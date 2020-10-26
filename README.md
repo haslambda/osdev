@@ -19,5 +19,6 @@ Work in progress...
 
 ### Running the kernel
 ```shell
-bochs -f bochsrc.txt -q
+qemu-system-i386 -boot d -cdrom ./os.iso -m 512 -s
 ```
+The `-s` flag is for remote debugging with `gdb`.
